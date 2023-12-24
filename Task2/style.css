@@ -1,0 +1,45 @@
+form{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 410px;
+}
+h1{
+    text-align:center;
+}
+body{
+    box-shadow: hsla(0, 0%, 100% ,10);
+    background-image: url(https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-1591373.jpg&fm=jpg);
+    background-size: 100%;
+    background-repeat: repeat-y;
+    color: hsla(0, 0%, 100%, 80%);
+    font-family: sans-serif;
+}
+@media (max-width:800px){
+    body{background-image: url(https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?cs=srgb&dl=pexels-oleksandr-pidvalnyi-1172064.jpg&fm=jpg) ;
+    background-size : cover;}
+    form{margin:0px;
+    display: inline-block;}
+}
+
+
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    input{
+        box-shadow: inset 1px 1px 5px rgba(208, 193, 193, 0.8);
+    }
+            
